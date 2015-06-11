@@ -1,0 +1,1 @@
+echo d > COM7
