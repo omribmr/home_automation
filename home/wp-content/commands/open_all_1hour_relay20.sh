@@ -1,5 +1,5 @@
 #!/bin/sh
 
 sh open_all_relay20.sh
-at now + 5 minutes -f 'sh close_all_relay20.sh'
+at -f /var/www/html/home/wp-content/commands/close_all_relay20.sh now + 1 hour
 exit
