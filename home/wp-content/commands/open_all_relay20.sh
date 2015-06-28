@@ -5,9 +5,11 @@ host=192.168.1.20
 port=2000
 #user=myuser
 #pass=mypass
-cmd1='d'
+cmd1='e'
+cmd2='p'
  
 ( echo open ${host} ${port}
 sleep 1
+echo ${cmd2}
 echo ${cmd1}
  ) | telnet
