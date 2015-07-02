@@ -12,6 +12,7 @@
  * to "wp-config.php" and fill in the values.
  *
  * @package WordPress
+ * real details only in local server
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
