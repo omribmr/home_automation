@@ -1,5 +1,5 @@
 <?php
-header('Location:' . $_SERVER['HTTP_REFERER']);
+//header('Location:' . $_SERVER['HTTP_REFERER']);
 echo "DUD IS ON";
-sleep (5);
+//sleep (5);
 ?>
