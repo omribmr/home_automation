@@ -6,7 +6,7 @@ port=2000
 #user=myuser
 #pass=mypass
 cmd1='o'
-cmd2='f'
+cmd2='p'
 
 ( echo open ${host} ${port}
 sleep 1
