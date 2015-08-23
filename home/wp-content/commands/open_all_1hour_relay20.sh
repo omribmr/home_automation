@@ -1,5 +1,5 @@
 #!/bin/sh
 
 sh /var/www/html/home/wp-content/commands/open_all_relay20.sh
-at -f /var/www/html/home/wp-content/commands/close_all_relay20.sh now + 1 hour
+at -f sh /var/www/html/home/wp-content/commands/close_all_relay20.sh now + 1 hour
 exit
